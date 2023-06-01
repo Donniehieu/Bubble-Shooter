@@ -8,7 +8,7 @@ using Entitas.CodeGeneration.Attributes;
 [Game]
 [Unique]
 [Event(EventTarget.Self)]
-public class HexGridSizeComponent : IComponent
+public class HexGridSizeComponent :IComponent
 {
     public int m_rows;
     public int m_columns;
